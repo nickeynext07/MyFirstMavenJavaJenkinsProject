@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28869" started-at="2018-11-30T21:41:14Z" finished-at="2018-11-30T21:41:43Z">
+  <suite name="Suite" duration-ms="37343" started-at="2018-11-30T22:17:22Z" finished-at="2018-11-30T22:17:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28869" started-at="2018-11-30T21:41:14Z" finished-at="2018-11-30T21:41:43Z">
+    <test name="Test" duration-ms="37343" started-at="2018-11-30T22:17:22Z" finished-at="2018-11-30T22:17:59Z">
       <class name="com.nick.selenium.MyFirstTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nick.selenium.MyFirstTest@56cbfb61]" name="beforeClass" is-config="true" duration-ms="22356" started-at="2018-11-30T21:41:14Z" finished-at="2018-11-30T21:41:36Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nick.selenium.MyFirstTest@56cbfb61]" name="beforeClass" is-config="true" duration-ms="26320" started-at="2018-11-30T22:17:22Z" finished-at="2018-11-30T22:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.nick.selenium.MyFirstTest@56cbfb61]" name="f" duration-ms="4388" started-at="2018-11-30T21:41:36Z" finished-at="2018-11-30T21:41:41Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.nick.selenium.MyFirstTest@56cbfb61]" name="f" duration-ms="6773" started-at="2018-11-30T22:17:48Z" finished-at="2018-11-30T22:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nick.selenium.MyFirstTest@56cbfb61]" name="afterClass" is-config="true" duration-ms="2063" started-at="2018-11-30T21:41:41Z" finished-at="2018-11-30T21:41:43Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nick.selenium.MyFirstTest@56cbfb61]" name="afterClass" is-config="true" duration-ms="4130" started-at="2018-11-30T22:17:55Z" finished-at="2018-11-30T22:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

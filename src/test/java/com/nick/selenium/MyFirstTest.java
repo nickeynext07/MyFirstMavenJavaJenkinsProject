@@ -18,11 +18,12 @@ public class MyFirstTest {
   public void beforeClass() {
 	  System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver.exe");
 	  driver = new FirefoxDriver();
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
 
   @Test
   public void f() {
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  
       driver.get("http://www.google.com");
       System.out.println("Page Title : " + driver.getTitle());
       String search_text = "I'm Feeling Lucky";
